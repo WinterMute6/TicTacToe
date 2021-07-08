@@ -15,7 +15,7 @@ namespace DecisionTree
 
             var root = new Node();
             BuildBranches(root, AllMoves);
-            Console.WriteLine("Who goes first? Enter 'Man' or any key for machine:");
+            Console.WriteLine("Who goes first? Enter 'Man' or press any key for machine:");
             var choice = Console.ReadLine();
             if (choice.ToLower() == "man")
             {
